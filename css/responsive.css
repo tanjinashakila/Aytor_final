@@ -1,0 +1,337 @@
+@media(max-width:800px){
+    /* for button */
+    .button{
+        padding: 13px 10px;
+        font-size: 12px;
+    }
+    .heading {
+font-size: 20px;
+    }
+    /* for items section */
+    #items img{
+        max-width: 100%;
+    }
+    #items h5{
+        font-size: 20px;
+    } 
+    #items a{
+        font-size: 12px;
+    } 
+    .item2{
+        margin-top: 22px;
+    }
+    /* for flashwrapper */
+    .flashSaleWrapper .timer {
+        max-width: 322px;
+    }
+    .flashSaleWrapper .timer li h4,.flashSaleWrapper .timer li p{
+        font-size: 14px;
+    }
+    .flashSaleWrapper .timer li::before,.flashSaleWrapper .timer li::after {
+        width: 4px;
+        height: 4px;
+    }
+    /* for spa cosmetics banner */
+#spaCosmetics .spaCosmeticsCnt p{
+font-size: 10px;
+}
+#spaCosmetics .spaCosmeticsCnt h2{
+font-size: 20px;
+}
+#spaCosmetics .spaCosmeticsCnt a{
+font-size: 10px;
+}
+
+/* for flase sale */
+.flashSaleSlider .flashSlide .banner_cnt h4{
+    font-size: 12px;
+
+}
+.flashSaleSlider .flashSlide .banner_cnt h2 {
+    font-size: 20px;
+}
+.flashSaleSlider .flashSlide .banner_cnt p{
+    font-size: 10px;
+}
+.flashSaleSlider .flashSlide .banner_cnt label{
+    font-size: 14px;
+}
+.button3{
+    font-size: 12px;
+}
+}
+/* for best seller product */
+@media(max-width:1000px){
+
+#bestProduct .product{
+    transform: scalex(0.7);
+ margin-right: 0;
+
+}
+}
+/* for promo */
+@media(min-width:800px){
+    .videoPromo{
+        position: absolute;
+        right: 0;
+        top:0;
+        width: 50%;
+    }
+}
+@media(max-width:799px){
+    .videoPromo{
+        margin-top: 40px;
+      }
+      .videoPromo .promoOverlay{
+        top:81%
+      }
+}
+/* for promo_cnt */
+@media(max-width:800px){
+.promo_cnt p{
+font-size: 12px;
+}
+.promo_cnt h3{
+font-size: 20px;
+}
+.promo_cnt h6{
+font-size: 14px;
+}
+}
+/* for prefooter */
+@media(max-width:800px){
+.preFooterCnt h4{
+font-size: 14px;
+
+}
+.preFooterCnt p{
+font-size: 10px;
+}
+.preFooterCnt{
+border: none;
+}
+.preFooterCnt:hover{
+border: none;
+  }
+  .preFooterCnt .image{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+  .preFooterCnt .image img{
+    height: 40%;
+  }
+}
+/* for footer */
+@media(max-width:991px){
+    .footerLogo{
+     text-align: left;
+     
+    }
+    .footerLogo img{
+        height: 70%;
+    }
+
+    .socialLinks a{
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+@media(max-width:800px){
+    .heading2{
+        font-size: 18px;
+    }
+.services ul li a,.services ul li label,.location a,.newsLetter p{
+font-size: 12px;
+}
+.newsLetter input{
+    padding:0;
+    width: 50%;
+    margin-left: 10px;
+  }
+  .newsLetter button {
+    font-size: 14px;
+    padding: 0;
+  }
+  .newsLetter p{
+    margin-bottom: 5px;
+  }   
+   /*for end section  */
+ .end p{
+font-size: 12px;
+}
+
+}
+/* for About page */
+@media(max-width:800px){
+    /* for about shop */
+.aboutShopCnt ul li .button{
+margin-bottom: 10px;
+}
+    .aboutShopCnt h3{
+        font-size: 22px;
+    }
+.aboutShopCnt p,.aboutShopCnt ul li{
+font-size: 12px;
+}
+/* for counter */
+.countCnt h3{
+    font-size: 22px;
+}
+.countCnt p{
+
+font-size: 12px;
+}
+.count{
+    margin-bottom: 10px;
+}
+/* for leadership section */
+.leadershipSlide .slideCnt h6{
+font-size: 16px;
+}
+.leadershipSlide .slideCnt p,.socialLinks1 a{
+font-size: 12px;
+}
+/* for about services */
+.preFooterCnt{
+    margin-bottom: 10px;
+}
+/*  for review section*/
+#review .container {
+    background-image: url(../images/reviewimgsm.png);
+    width: 100%;
+}
+.upImg,.upImag2{
+display: none;
+}
+
+.reviewMsg p{
+    font-size: 10px;
+}
+.reviewMsg h4{
+    font-size: 18px;
+}
+/* for instagramPic */
+#instagramPic{
+    margin-top: 150px;
+}
+}
+
+/* for shop page */
+/* for shopProductSlider */
+@media(max-width:800px){
+    /* for preproduct section */
+    .dropdown{
+        margin: 10px 0;
+    }
+    .allPageHeading h2{
+        font-size: 30px;
+    }
+#shopProducts .productDescpt p,#shopProducts .productDescpt h3 span label{
+font-size: 12px;
+}
+#shopProducts .productDescpt h3{
+font-size: 16px;
+}
+.sliderarrow{
+    font-size: 14px;
+}
+.shopProductDots li button{
+    width: 20px;
+    height: 20px;
+}
+}
+@media(max-width:500px){
+    .shopProductDots li button{
+
+    font-size: 10px;
+}
+}
+
+
+/* feature page start */
+/* for featureProduct */
+@media(max-width:1200px){
+    #productDetails .leftArrow,
+  #productDetails .rightArrow{
+    top:70%;
+  }
+}
+@media(max-width:991px){
+    #productDetails .leftArrow,
+  #productDetails .rightArrow{
+    top: 91%;
+  }
+}
+@media(max-width:800px){
+    .barSection{
+        margin-bottom: 10px;
+    }
+    #featureProduct .nav-link{
+        font-size: 12px;
+    }
+.tab-pane p{
+font-size: 12px;
+}
+.productDetailsCnt h3{
+font-size: 22px;
+padding-top: 20px;
+
+}
+#productDetails p,option{
+    font-size: 14px;
+}
+/* counter */
+.inc_dec {
+    margin-top: 5px;
+}
+.inc_dec p{
+    padding: 10px 16px;
+   
+}
+.cartIcons{
+    padding: 5px 0;
+    margin-top: -5px;
+}
+.cartIcons a{
+font-size: 12px;
+padding: 12px 10px;
+
+}
+}
+
+
+/* contact page start */
+@media(max-width:800px)
+{
+    textarea{
+       width: 100%;
+    }
+    /* for contact card */
+    .cardCnt h4{
+        font-size: 18px;
+    }
+    .cardCnt p,.cardCnt a{
+        font-size: 12px;
+    }
+.cardCnt h6{
+font-size: 14px;
+}
+.cardIcon a{
+font-size: 18px;
+}
+}
+@media((min-width:992px) and (max-width:1200px)){
+    .card3 .card .row{
+        padding-bottom: 0;
+ 
+      }
+      .card3 .card{
+        padding-bottom: 10px;
+      }
+}
+
+
+/* contact page end */

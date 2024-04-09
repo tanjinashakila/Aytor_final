@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <!-- css -->
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- font awosome -->
+<link rel="stylesheet" href="./css/all.min.css">
+<!-- slick slider css -->
+<link rel="stylesheet" href="./css/slick.css">
+<!-- venobox css for video play -->
+<link rel="stylesheet" href="./css/venobox.min.css">
+<!-- main css -->
+<link rel="stylesheet" href="./css/style.css">
+<!-- responsive css -->
+<link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- css ends -->
+</head>
+
+
+<body>
+ <!-- header/navbar start -->
+    <header>
+        <!-- navbar dasktop start -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-block">
+            <div class="container">
+                <!-- logo -->
+              <a class="navbar-brand col-2" href="index.html"><img src="./images/logo.png" alt=""></a>
+           <!-- desktop menu -->
+              <div class="collapse navbar-collapse col-7" id="menu">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="about.html">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="feature.html">Features <span><i class="fa-solid fa-angle-down"></i></span></a>
+                  
+                  
+                    <div class="submenu">
+                        <ul>
+                          <li><a class="dropdown-item" href="#">Features 1</a></li>
+                          <li><a class="dropdown-item" href="#">Features 2</a></li>
+                          <li><a class="dropdown-item" href="#">Features 3</a></li>
+                          <li><a class="dropdown-item" href="#">Features 4</a></li>
+                          <li><a class="dropdown-item" href="#">Features 5</a></li>
+                          
+                        </ul>
+                    </div>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="blog.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+                  </li>            
+                </ul>
+               
+              </div>
+           <!-- desktop menu ends -->
+
+              <!-- links start -->
+              <div class="links col-3">
+                <ul class="d-flex justify-content-end">
+                    <li><a  href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a  href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li><a  href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a  href="#"><i class="fa-solid fa-bag-shopping"></i>
+                    <div class="count">0</div></a>
+                </li>
+                </ul>
+              </div>
+              <!-- links ends -->
+
+            </div>
+          </nav>
+        <!-- navbar dasktop start -->
+<!-- small screen navbar starts -->
+<nav class="d-block d-lg-none smNavbar">
+<div class="container">
+    <div class="row">
+  <div class="col-2">
+<button class="barBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#smMenu"><i class="fa-solid fa-bars-staggered"></i></button>
+<!-- offcanvas menu -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="smMenu" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+   <a href="index.html"><img height="30" src="./images/logo.png" alt=""></a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+        <ul>
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+            <li><a class="dropdown-item" href="about.html">Pages</a></li>
+            <li><a class="dropdown-item btn btn-secondary dropdown-toggle" role="button" data-bs-toggle="dropdown" href="feature.html">Features</a>
+             
+              
+                <ul class="dropdown-menu submenuSm">
+                  <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 2</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 3</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 4</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 5</a></li>
+
+                </ul>
+            
+            </li>
+
+            <li><a class="dropdown-item" href="blog.html">Blogs</a></li>
+            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            
+          </ul>
+            </div>
+   
+  </div>
+</div>  
+</div>
+  <div class="col-7 text-center">
+<a href="index.html"><img id="smImg" height="50" src="./images/logo.png" alt=""></a>
+  </div>
+  <div class="links  justify-content-end col-3">
+    <ul class="d-flex">
+        <li><a  href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li><a  href="#"><i class="fa-solid fa-bag-shopping"></i>
+        <div class="count">0</div></a>
+    </li>
+    </ul>
+  </div>
+
+    </div>
+</div>
+</nav>
+
+
+
+<!-- small screen navbar ends -->
+</header>
+<!-- header/navbar ends -->
+
+
+<!-- shop banner start -->
+<Section id="shopBanner">
+<div class="container">
+  <div class="allPageHeading text-center">
+    <h2 >Shop-Grid</h2>
+    <a href="index.html">Home /</a> <a href="shop.html">Shop</a>
+  </div>
+</div>
+</Section>
+
+
+
+
+<!-- shop banner end -->
+<!-- shop products start -->
+<section id="shopProducts">
+  <div class="container">
+    <div class="preproductSec row">
+      <div class="dispalyIcon col-md-2">
+        <a href="#"><i class="fa-solid fa-list"></i></a>
+        <a href="#"><i class="fa-solid fa-grip"></i></a>
+      </div>
+      <div class="barSection col-md-3">
+        <p>Showing 12 of 16 Post</p>
+        <div class="bar">
+          <div class="bar1"></div>
+        </div>
+      </div>
+      <div class="dropdown col-md-2 ms-auto">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Default sorting
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Accending</a></li>
+          <li><a class="dropdown-item" href="#">Decending</a></li>
+          <li><a class="dropdown-item" href="#">Default sorting</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="shopProductSlider">
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct1.png" alt="">
+        <!-- offer start -->
+        <label class="offer">New</label>
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct2.png" alt="">
+
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct3.png" alt="">
+        <!-- offer start -->
+        <label class="offer">New</label>
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct4.png" alt="">
+    
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+    
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct5.png" alt="">
+      
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct1.png" alt="">
+  
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct2.png" alt="">
+        <!-- offer start -->
+        <label class="offer">New</label>
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct3.png" alt="">
+       
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct4.png" alt="">
+      
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct5.png" alt="">
+  
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct1.png" alt="">
+        <!-- offer start -->
+        <label class="offer">New</label>
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct1.png" alt="">
+      
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-2 ">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/shopProduct1.png" alt="">
+        <!-- offer start -->
+        <label class="offer">New</label>
+        <!-- product overlay start -->
+        <div class="overlay2">
+          <ul>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-eye"></i></a>
+              </li>
+              <li>
+                  <a data-bs-toggle="tooltip" data-bs-placement="left"
+                      data-bs-title="Add To Cart"  href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+          </ul>
+      </div>
+      <!-- product overlay ends -->
+        </div>
+        <div class="productDescpt">
+          
+          <h3>Spaghetti Hoodie 
+          <span class="rating text-end">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <label for="">(5)</label>
+          </span></h3>
+          <p>$125.65</p>
+        </div>
+      </div>
+    </div>
+    <div class="sliderarrow">
+      <div class="sliderleftArrow"><i class="fa-solid fa-arrow-left"></i>Pre</div>
+      <div class="sliderrightArrow">Next<i class="fa-solid fa-arrow-right"></i></div>
+</div>
+  </div>
+</section>
+
+
+<!-- shop products ends -->
+<!-- footer start -->
+
+<section id="aboutFoooter">
+  <div class="container">
+    <div class="mainFooter">
+
+<!-- social links and payment start -->
+<div class="links_payment">
+  <div class="row">
+    <div class="socialLinks col-lg-4 order-2 order-lg-1">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+    </div>
+    <div class="footerLogo col-lg-4  order-1 order-lg-2">
+      <img  src="./images/footerLogo.png" alt="">
+    </div>
+    <div class="paymentsLink col-lg-4 order-3 text-end d-none d-lg-block">
+      <img src="./images/paymentoption.png" alt="">
+    </div>
+    </div>
+
+  </div>
+  <!-- social links and payment end -->
+  <!-- footer main content details start -->
+<div class="services">
+  <div class="row">
+    <div class="myAccount col-lg-2">
+      <h4 class="heading2">My Account</h4>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> My Account</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> View Cart</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Wishlist</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Compare</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> New Products</a></li>
+        
+      </ul>
+    </div>
+    <div class="support col-lg-2">
+      <h4 class="heading2">Support</h4>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Help</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Feedback</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Customer Service</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Store Locations</a></li>
+        
+      </ul>
+
+    </div>
+    <div class="openingTime col-lg-2">
+      <h4 class="heading2">Opening Time</h4>
+      <ul>
+        <li class="d-flex justify-content-between">
+          <label>Mon - Tue:</label>
+          <label class="timing">8AM - 10PM</label>
+
+        </li>
+        <li class="d-flex justify-content-between">
+          <label>Wed:</label>
+          <label class="timing">8AM - 7PM</label>
+
+        </li>
+         <li class="d-flex justify-content-between">
+          <label >Fri:</label>
+          <label class="timing">7AM - 12PM</label>
+
+        </li>
+        <li class="d-flex justify-content-between">
+          <label> Sat:</label>
+          <label class="timing">9AM - 8PM</label>
+
+        </li>
+        <li class="d-flex justify-content-between">
+          <label >Sun:</label>
+          <label class="timing">Closed</label>
+
+        </li>
+      </ul>
+    </div>
+      <div class="contactDetails col-lg-3">
+        <h4 class="heading2">Contact Us</h4>
+<div class="location row">
+  <a href="#" class="col-2"><i class="fa-solid fa-location-dot"></i></a>
+  <a class="col-10" href="address:830 Broad way, New York, NY 10003,
+  United States">830 Broad way, New York, NY 10003,
+  United States</a>
+</div>
+<div class="location row">
+  <a href="#" class="col-2"><i class="fa-solid fa-phone"></i></a>
+  <a class="col-10"href="tel:0018008660286">+18008660286</a>
+</div>
+<div class="location row">
+  <a href="#" class="col-2"><i class="fa-regular fa-envelope"></i></a>
+  <a class="col-10" href="mailto:aetor.info@gmail.com">aetor.info@gmail.com info@aetor.com</a>
+</div>
+    </div>
+    <div class="newsLetter col-lg-3">
+      <h4 class="heading2">News Letter</h4>
+<p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+<div class="row">
+  <input class="col-8" type="text" placeholder="Enter your email....">
+  <button class="col-4">Subscribe</button>
+</div>
+</div>
+
+  </div>
+</div>
+
+
+  <!-- footer main content details end -->
+ 
+
+</div>
+
+  </div>
+
+</section>
+
+<section class="end">
+
+  <p>© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft</span>.</p>
+
+</section>
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- js links -->
+<!-- jquery js -->
+<script src="./js/jquery-3.7.1.min.js"></script>
+<!-- slick slider js -->
+<script src="./js/slick.min.js"></script>
+<!-- countdown js -->
+<script src="./js/jquery.countdown.min.js"></script>
+<!-- venobox js for video play -->
+<script src="./js/venobox.min.js"></script>
+    <!-- main js -->
+<script src="./js/app.js"></script>
+</body>
+</html>

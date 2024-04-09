@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feature</title>
+    <!-- css -->
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- font awosome -->
+<link rel="stylesheet" href="./css/all.min.css">
+<!-- slick slider css -->
+<link rel="stylesheet" href="./css/slick.css">
+<!-- venobox css for video play -->
+<link rel="stylesheet" href="./css/venobox.min.css">
+<!-- main css -->
+<link rel="stylesheet" href="./css/style.css">
+<!-- responsive css -->
+<link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- css ends -->
+</head>
+
+
+<body>
+ <!-- header/navbar start -->
+    <header>
+        <!-- navbar dasktop start -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-block">
+            <div class="container">
+                <!-- logo -->
+              <a class="navbar-brand col-2" href="index.html"><img src="./images/logo.png" alt=""></a>
+           <!-- desktop menu -->
+              <div class="collapse navbar-collapse col-7" id="menu">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="about.html">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="feature.html">Features <span><i class="fa-solid fa-angle-down"></i></span></a>
+                  
+                  
+                    <div class="submenu">
+                        <ul>
+                          <li><a class="dropdown-item" href="#">Features 1</a></li>
+                          <li><a class="dropdown-item" href="#">Features 2</a></li>
+                          <li><a class="dropdown-item" href="#">Features 3</a></li>
+                          <li><a class="dropdown-item" href="#">Features 4</a></li>
+                          <li><a class="dropdown-item" href="#">Features 5</a></li>
+                          
+                        </ul>
+                    </div>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="blog.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+                  </li>            
+                </ul>
+               
+              </div>
+           <!-- desktop menu ends -->
+
+              <!-- links start -->
+              <div class="links col-3">
+                <ul class="d-flex justify-content-end">
+                    <li><a  href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a  href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li><a  href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a  href="#"><i class="fa-solid fa-bag-shopping"></i>
+                    <div class="count">0</div></a>
+                </li>
+                </ul>
+              </div>
+              <!-- links ends -->
+
+            </div>
+          </nav>
+        <!-- navbar dasktop start -->
+<!-- small screen navbar starts -->
+<nav class="d-block d-lg-none smNavbar">
+<div class="container">
+    <div class="row">
+  <div class="col-2">
+<button class="barBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#smMenu"><i class="fa-solid fa-bars-staggered"></i></button>
+<!-- offcanvas menu -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="smMenu" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+   <a href="index.html"><img height="30" src="./images/logo.png" alt=""></a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+        <ul>
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+            <li><a class="dropdown-item" href="about.html">Pages</a></li>
+            <li><a class="dropdown-item btn btn-secondary dropdown-toggle" role="button" data-bs-toggle="dropdown" href="feature.html">Features</a>
+             
+              
+                <ul class="dropdown-menu submenuSm">
+                  <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 2</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 3</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 4</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 5</a></li>
+
+                </ul>
+            
+            </li>
+
+            <li><a class="dropdown-item" href="blog.html">Blogs</a></li>
+            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            
+          </ul>
+            </div>
+   
+  </div>
+</div>  
+</div>
+  <div class="col-7 text-center">
+<a href="index.html"><img id="smImg" height="50" src="./images/logo.png" alt=""></a>
+  </div>
+  <div class="links  justify-content-end col-3">
+    <ul class="d-flex">
+        <li><a  href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li><a  href="#"><i class="fa-solid fa-bag-shopping"></i>
+        <div class="count">0</div></a>
+    </li>
+    </ul>
+  </div>
+
+    </div>
+</div>
+</nav>
+
+
+
+<!-- small screen navbar ends -->
+</header>
+<!-- header/navbar ends -->
+
+
+<!-- feature banner start -->
+<Section id="aboutBanner">
+<div class="container">
+  <div class="allPageHeading text-center">
+    <h2 >Shop - Details Style One</h2>
+    <a href="index.html">Home /</a> <a href="shop.html">Shop</a>
+  </div>
+</div>
+</Section>
+
+
+
+
+<!-- feature banner end -->
+<!--  product and details start-->
+<section id="productDetails">
+  <div class="container">
+    <div class="row">
+      <div class="productDetailsSlider col-lg-5">
+        <div class="slider-for">
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails1.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails2.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails3.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails4.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails1.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails2.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails3.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails4.png" alt=""></div>
+        
+        
+        </div>
+        <div class="slider-nav">
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails1.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails2.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails3.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails4.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails1.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails2.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails3.png" alt=""></div>
+          <div class="slide1"><img class="w-100 d-block" src="./images/productDetails4.png" alt=""></div>
+        
+        
+
+        </div>
+        <div class="arrow">
+          <div class="leftArrow"><i class="fa-solid fa-angle-left"></i></div>
+          <div class="rightArrow"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+      </div>
+      <div class="productDetailsCnt col-lg-7">
+        <h3>Leather Jackets</h3>
+        <p>5.00
+          <span class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          (5 Customer Review)</p>
+          <label   for="">$125.35</label>
+    <label class="label2"  for="">$350.35</label>
+          <p class="p2">Quickly productivate holistic systems after 24/365 e-commerce. Continually synthesize superior catalysts for change via high standards in leadership skills. Collaboratively evisculate distributed functionalities rather than timely methods of empowerment.</p>
+      <p class="size">Size: <select name="" id="">
+        <option value="">44</option>
+        <option value="">45</option>
+        <option value="">46</option>
+        <option value="">47</option>
+
+      </select> </p>
+      <p class="size">Color:<select name="" id="">
+        <option value="">Orange</option>
+        <option value="">Black</option>
+        <option value="">White</option>
+        <option value="">Red</option>
+
+      </select> </p>
+      <p class="size">Quantity: <br></p>
+      <div class="row align-items-center">
+        <div class="inc_dec row col-4">
+          <p class="col-1" type="button" id="increment">+</p>
+           <p class="col-1" id="counter">0</p>
+          <p class="col-1" type="button" id="decrement">-</p>
+   
+        </div>
+        <div class="cartIcons col-6">
+          <a  href="#"><span><i class="fa-solid fa-cart-plus"></i></span> Add To Cart</a>
+          <a  href="#"><span><i class="fa-solid fa-heart"></i></span></a>
+          <a  href="#"><span><i class="fa-solid fa-eye"></i></span></a>
+        </div>
+      </div>
+<hr>
+<div class="row">
+  <div class="category col-6">
+    <p class="size">SKU:  <span>W0243</span></p>
+    <p class="size">Tags: <span>Hot, Women </span></p>
+  
+    <p class="size">Category:<span>Dress, T-Shirt, Mini Scut</span></p>
+  </div>
+    <div class="categoryIcons col-6 text-end">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+  </div>
+</div>
+
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!--  product and  details end-->
+
+<!-- product description start -->
+<section id="featureProduct">
+<div class="container">
+  <ul class="nav nav-pills mb-3 featureNav" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Product Description</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Customer Review(1)</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Additional Information</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <p>Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively scale team driven process improvements before premier functionalities. Holisticly cultivate intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate holistic collaboration and 
+        idea-sharing rather than granular strategic theme areas.</p>
+
+<p>
+  Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+  Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.
+</p>
+
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <p>“I recently dined at [RestaurantName] and was thoroughly impressed by both the exquisite cuisine and the impeccable service. The menu showcased a variety of innovative dishes, blending bold flavors and beautiful presentation. The attentive and knowledgeable staff ensured that our meal was a memorable one, providing excellent recommendations and ensuring our satisfaction. I can’t recommend [RestaurantName] enough for a fantastic dining experience.”</p>
+      <p>“The staff was great. The receptionists were very helpful and answered all our questions. The room was clean and bright, and the room service was always on time. Will be coming back! Thank you so much.”</p>
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <p>Blocks you add to additional information display directly below the main product details in a vertical stack. This screenshot shows a product with a button block, spacer block, and Calendar Block in the additional information section. </p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<!-- product description end -->
+
+
+<!-- new arrival product start -->
+<section id="relatedProducts">
+  <div class="container">
+    <h2 class="heading">New Arrivals Products</h2>
+    <div class="productSlider">
+      
+      <div class="product col-lg-3">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/relatedImg1.png" alt="">
+        <!-- offer start -->
+        <label class="offer">Free</label>
+        
+        </div>
+        <div class="productDescpt">
+          <h3>Baseball Cap
+            <span class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </h3>
+         <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-3">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/relatedImg2.png" alt="">
+       
+        
+        </div>
+        <div class="productDescpt">
+          <h3>Flight jacket
+            <span class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </h3>
+         <p>$150.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-3">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/relatedImg3.png" alt="">
+        <!-- offer start -->
+        <label class="offer">Free</label>
+        
+        </div>
+        <div class="productDescpt">
+          <h3>Shoe Less
+            <span class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </h3>
+         <p>$125.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-3">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/relatedImg4.png" alt="">
+       
+        
+        </div>
+        <div class="productDescpt">
+          <h3>Blazer Coat
+            <span class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </h3>
+         <p>$350.65</p>
+        </div>
+      </div>
+      <div class="product col-lg-3">
+        <div class="productImg">
+          <img class="d-block w-100" src="./images/relatedImg1.png" alt="">
+        <!-- offer start -->
+        <label class="offer">Free</label>
+        
+        </div>
+        <div class="productDescpt">
+          <h3>Baseball Cap
+            <span class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </h3>
+         <p>$125.65</p>
+        </div>
+      </div>
+    
+    </div>
+    <div class="arrow">
+      <div class="leftArrow"><i class="fa-solid fa-angle-left"></i></div>
+      <div class="rightArrow"><i class="fa-solid fa-angle-right"></i></div>
+</div>
+  </div>
+</section>
+<!-- new arrival product end -->
+
+
+
+<!-- footer start -->
+
+<section id="aboutFoooter">
+  <div class="container">
+    <div class="mainFooter">
+
+<!-- social links and payment start -->
+<div class="links_payment">
+  <div class="row">
+    <div class="socialLinks col-lg-4 order-2 order-lg-1">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+    </div>
+    <div class="footerLogo col-lg-4  order-1 order-lg-2">
+      <img  src="./images/footerLogo.png" alt="">
+    </div>
+    <div class="paymentsLink col-lg-4 order-3 text-end d-none d-lg-block">
+      <img src="./images/paymentoption.png" alt="">
+    </div>
+    </div>
+
+  </div>
+  <!-- social links and payment end -->
+  <!-- footer main content details start -->
+<div class="services">
+  <div class="row">
+    <div class="myAccount col-lg-2">
+      <h4 class="heading2">My Account</h4>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> My Account</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> View Cart</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Wishlist</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Compare</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> New Products</a></li>
+        
+      </ul>
+    </div>
+    <div class="support col-lg-2">
+      <h4 class="heading2">Support</h4>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Help</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Feedback</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Customer Service</a></li>
+        <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Store Locations</a></li>
+        
+      </ul>
+
+    </div>
+    <div class="openingTime col-lg-2">
+      <h4 class="heading2">Opening Time</h4>
+      <ul>
+        <li class="d-flex justify-content-between">
+          <label>Mon - Tue:</label>
+          <label class="timing">8AM - 10PM</label>
+
+        </li>
+        <li class="d-flex justify-content-between">
+          <label>Wed:</label>
+          <label class="timing">8AM - 7PM</label>
+
+        </li>
+         <li class="d-flex justify-content-between">
+          <label >Fri:</label>
+          <label class="timing">7AM - 12PM</label>
+
+        </li>
+        <li class="d-flex justify-content-between">
+          <label> Sat:</label>
+          <label class="timing">9AM - 8PM</label>
+
+        </li>
+        <li class="d-flex justify-content-between">
+          <label >Sun:</label>
+          <label class="timing">Closed</label>
+
+        </li>
+      </ul>
+    </div>
+      <div class="contactDetails col-lg-3">
+        <h4 class="heading2">Contact Us</h4>
+<div class="location row">
+  <a href="#" class="col-2"><i class="fa-solid fa-location-dot"></i></a>
+  <a class="col-10" href="address:830 Broad way, New York, NY 10003,
+  United States">830 Broad way, New York, NY 10003,
+  United States</a>
+</div>
+<div class="location row">
+  <a href="#" class="col-2"><i class="fa-solid fa-phone"></i></a>
+  <a class="col-10"href="tel:0018008660286">+18008660286</a>
+</div>
+<div class="location row">
+  <a href="#" class="col-2"><i class="fa-regular fa-envelope"></i></a>
+  <a class="col-10" href="mailto:aetor.info@gmail.com">aetor.info@gmail.com info@aetor.com</a>
+</div>
+    </div>
+    <div class="newsLetter col-lg-3">
+      <h4 class="heading2">News Letter</h4>
+<p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+<div class="row">
+  <input class="col-8" type="text" placeholder="Enter your email....">
+  <button class="col-4">Subscribe</button>
+</div>
+</div>
+
+  </div>
+</div>
+
+
+  <!-- footer main content details end -->
+ 
+
+</div>
+
+  </div>
+
+</section>
+
+<section class="end">
+
+  <p>© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft</span>.</p>
+
+</section>
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- js links -->
+<!-- jquery js -->
+<script src="./js/jquery-3.7.1.min.js"></script>
+<!-- slick slider js -->
+<script src="./js/slick.min.js"></script>
+<!-- countdown js -->
+<script src="./js/jquery.countdown.min.js"></script>
+<!-- venobox js for video play -->
+<script src="./js/venobox.min.js"></script>
+    <!-- main js -->
+<script src="./js/app.js"></script>
+</body>
+</html>
